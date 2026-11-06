@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "TEKADDON",
+  "version": "0.1.0",
+  "identifier": "com.tekaddon.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "TEKADDON",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 1024,
+        "minHeight": 640,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' ipc: http://ipc.localhost http://127.0.0.1:* http://localhost:*",
+      "devCsp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' ws://127.0.0.1:1420 http://127.0.0.1:1420 ipc: http://ipc.localhost http://127.0.0.1:* http://localhost:*"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "offlineInstaller"
+      },
+      "nsis": {
+        "languages": [
+          "Spanish"
+        ],
+        "displayLanguageSelector": false,
+        "installMode": "currentUser"
+      }
+    },
+    "publisher": "Tekkadon",
+    "copyright": "Tekkadon",
+    "category": "Business",
+    "shortDescription": "Inventario y facturación interna",
+    "longDescription": "Sistema de escritorio para el control de inventario, ventas con comprobantes internos, compras, cuentas por cobrar y por pagar.",
+    "licenseFile": "LICENCIA.txt"
+  }
+}

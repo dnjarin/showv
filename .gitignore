@@ -1,0 +1,30 @@
+# Dependencias y compilación
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# Base de datos y respaldos (NUNCA subir datos reales)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+backups/
+respaldos/
+*.bak
+
+# Reportes y registros locales
+reporte-verificacion.txt
+*.log
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claves y entorno
+.env
+.env.*
+*.pem
+*.key

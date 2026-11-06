@@ -1,0 +1,17 @@
+﻿TEKKADON — LICENCIA DE USO DEL PROTOTIPO
+
+Al instalar o usar este programa usted acepta las siguientes condiciones.
+
+1. Alcance. Tekkadon es un sistema de escritorio para el control de inventario y la facturación interna. Se instala en un equipo y guarda toda su información en ese mismo equipo.
+
+2. Comprobantes internos. Los comprobantes, recibos y demás documentos que emite el programa son de control interno. No tienen validez fiscal y no sustituyen las facturas ni los documentos exigidos por la normativa tributaria vigente.
+
+3. Respaldos. Los datos se guardan únicamente en este equipo. El usuario es responsable de mantener respaldos periódicos y de resguardarlos en un lugar seguro. El programa ofrece una función de respaldo para ese fin.
+
+4. Uso permitido. Se autoriza su uso para la gestión interna de la empresa que lo instala. No se permite copiarlo, redistribuirlo, venderlo ni modificarlo sin autorización escrita del titular de los derechos.
+
+5. Estado del programa. Este es un prototipo desarrollado con fines académicos. Se entrega «tal como está», sin garantía de ningún tipo. Antes de usarlo con información real, el usuario debe validar que sus resultados correspondan a sus necesidades.
+
+6. Limitación de responsabilidad. El titular de los derechos no responde por pérdidas de datos, interrupciones del servicio, errores en los cálculos ni daños derivados del uso del programa.
+
+7. Datos personales. El programa no envía información a servidores externos. Los datos de clientes, proveedores y usuarios permanecen en el equipo donde está instalado y su protección es responsabilidad de quien lo administra.
